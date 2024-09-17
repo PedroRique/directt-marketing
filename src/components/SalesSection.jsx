@@ -1,4 +1,3 @@
-import React from 'react';
 import './SalesSection.css';
 
 const SalesSection = () => {
