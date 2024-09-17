@@ -7,7 +7,7 @@ const Footer = () => {
         <img src="/logo-vertical.png" alt="Directt Logo" />
       </div>
       <div className="footer-content">
-        <p>DESENVOLVIDO POR NEBARI MARKETING - 2024 TODOS OS DIREITOS RESERVADOS</p>
+        <p>2024 TODOS OS DIREITOS RESERVADOS</p>
       </div>
     </footer>
   );
