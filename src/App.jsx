@@ -1,10 +1,10 @@
 import Header from './components/Header';
 import MainSection from './components/MainSection';
-import Contact from './components/Contact';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 import SalesSection from './components/SalesSection';
 import ServiceSection from './components/ServiceSection';
+import ContactSection from './components/ContactSection';
 
 const App = () => {
   return (
@@ -13,7 +13,7 @@ const App = () => {
       <MainSection />
       <SalesSection />
       <ServiceSection />
-      <Contact />
+      <ContactSection />
       <Testimonials />
       <Footer />
     </div>
