@@ -5,7 +5,7 @@ const SalesSection = () => {
     <section className="sales-section" id="sales">
       <div className="sales-content">
         <img
-          src="/sales-graphic.png"
+          src="/sales-graphic.svg"
           alt="Gráfico de vendas"
           className="sales-image"
         />

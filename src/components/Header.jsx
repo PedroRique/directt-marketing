@@ -6,6 +6,10 @@ import './Header.css';
 const Header = () => {
   const [sidebar, setSidebar] = useState(false);
 
+  const closeSidebar = () => {
+    setSidebar(false);
+  }
+
   const toggleSidebar = () => {
     setSidebar(!sidebar);
   };
@@ -18,10 +22,10 @@ const Header = () => {
       
       <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
         <ul>
-          <li><a href="#services">O que fazemos?</a></li>
-          <li><a href="#sales">Especialidade</a></li>
-          <li><a href="#testimonials">Depoimentos</a></li>
-          <li><a href="#contact">Contato</a></li>
+          <li><a href="#services" onClick={closeSidebar}>O que fazemos?</a></li>
+          <li><a href="#sales" onClick={closeSidebar}>Especialidade</a></li>
+          <li><a href="#testimonials" onClick={closeSidebar}>Depoimentos</a></li>
+          <li><a href="#contact" onClick={closeSidebar}>Contato</a></li>
         </ul>
       </nav>
 

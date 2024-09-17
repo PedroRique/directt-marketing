@@ -1,5 +1,5 @@
-import React from 'react';
-import './MainSection.css';
+import "./MainSection.css";
+import { IoSend } from "react-icons/io5";
 
 const MainSection = () => {
   return (
@@ -9,13 +9,18 @@ const MainSection = () => {
         <source src="/background-video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <div className="content">
-        <h1>Potencialize seus resultados com as nossas estratégias</h1>
-        <p>Plataforma especializada em geração de leads.</p>
-        <form className="email-form">
-          <input type="email" placeholder="Insira seu melhor e-mail" />
-          <button type="submit">Quero Conhecer</button>
-        </form>
+      <div className="main-container">
+        <div className="content">
+          <h1>Potencialize seus resultados com as nossas estratégias</h1>
+          <p>Plataforma especializada em geração de leads.</p>
+          <a
+            href="mailto:comercial@directtmarketing.com.br"
+            className="want-button"
+          >
+            Quero conhecer
+            <IoSend />
+          </a>
+        </div>
       </div>
     </section>
   );

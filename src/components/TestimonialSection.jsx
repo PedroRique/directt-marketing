@@ -6,7 +6,7 @@ const TestimonialSection = () => {
       <h2>Depoimentos</h2>
       <div className="testimonial-container">
         <div className="testimonial-card">
-          <img src="/avatar.png" alt="Mauro Menzes" className="testimonial-img" />
+          {/* <img src="/avatar.png" alt="Mauro Menzes" className="testimonial-img" /> */}
           <div className="testimonial-content">
             <h3>Mauro Menzes</h3>
             <p>Diretor Comercial</p>
@@ -15,7 +15,7 @@ const TestimonialSection = () => {
         </div>
 
         <div className="testimonial-card">
-          <img src="/avatar.png" alt="Roberto" className="testimonial-img" />
+          {/* <img src="/avatar.png" alt="Roberto" className="testimonial-img" /> */}
           <div className="testimonial-content">
             <h3>Roberto</h3>
             <p>Coordenador de Mídia</p>

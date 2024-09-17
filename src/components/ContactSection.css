@@ -30,6 +30,9 @@
   border-radius: 5px;
   transition: background-color 0.3s ease;
   text-wrap: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 1em;
 }
 
 .contact-button:hover {

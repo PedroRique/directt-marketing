@@ -1,4 +1,5 @@
 import "./ContactSection.css";
+import { IoSend } from "react-icons/io5";
 
 const ContactSection = () => {
   return (
@@ -9,6 +10,7 @@ const ContactSection = () => {
         </h2>
         <a href="mailto:comercial@directtmarketing.com.br" className="contact-button">
           Contate-nos
+          <IoSend />
         </a>
       </div>
     </section>
