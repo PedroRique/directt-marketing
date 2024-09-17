@@ -1,0 +1,53 @@
+.sales-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .sales-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .sales-image {
+    width: 300px;
+    height: auto;
+  }
+  
+  .sales-text {
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .sales-text h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .sales-text h2 span {
+    color: #ffc107;
+  }
+  
+  .sales-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 768px) {
+    .sales-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .sales-image {
+      margin-bottom: 20px;
+    }
+  
+    .sales-text h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
