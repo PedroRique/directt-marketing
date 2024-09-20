@@ -2,7 +2,8 @@ import './TestimonialSection.css';
 
 const TestimonialSection = () => {
   return (
-    <section className="testimonial-section" id="testimonials">
+    <section id="testimonials" className="testimonial-section1">
+      <div className="testimonial-section">
       <h2>Depoimentos</h2>
       <div className="testimonial-container">
         <div className="testimonial-card">
@@ -12,7 +13,7 @@ const TestimonialSection = () => {
             </div>
             <div className="testimonial-content">
               <h3>Mauro Menzes</h3>
-              <p>Diretor Comercial</p>
+              <p className='cargo'>Diretor Comercial</p>
               <p>“Obtivemos excelente performance do nosso canal de afiliados em parceria com a Directt Marketing. Campanhas focadas em CPA com conversão acima da média. Fora todo atendimento realizado.”</p>
             </div>
           </div>
@@ -24,10 +25,11 @@ const TestimonialSection = () => {
             </div>
             <div className="testimonial-content">
               <h3>Roberto</h3>
-              <p>Coordenador de Mídia</p>
+              <p className='cargo'>Coordenador de Mídia</p>
               <p>“Construímos uma parceria sólida pautada em transparência. Resultados acima da média.”</p>
             </div>
         </div>
+      </div>
       </div>
     </section>
   );
