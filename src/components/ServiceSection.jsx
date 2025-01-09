@@ -23,7 +23,7 @@ const ServiceSection = () => {
         />
         <ServiceItem
           icon={targetIcon}
-          title="Tráfego Qualidade"
+          title="Tráfego de Qualidade"
           description="Atinja o seu público-alvo."
         />
       </div>
